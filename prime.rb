@@ -1,3 +1,3 @@
-prime(int)
-if int <= 1 
-  return false
+def prime(int)
+int.collect {|prime| prime.prime?}
+end
