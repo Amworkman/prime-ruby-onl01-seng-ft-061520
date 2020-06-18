@@ -1,3 +1,3 @@
 def prime?(integer)
-integer.collect {|prime| prime.prime?}
+integer.each {|prime| prime.prime?}
 end
