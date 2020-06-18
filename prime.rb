@@ -7,5 +7,3 @@ def prime?(int)
     int % num == 0
   end
   end
-end
-end
